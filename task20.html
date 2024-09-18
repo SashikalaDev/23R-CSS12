@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            background-color: white;
+            height:70vh;
+            width:22vw;
+            display: grid;
+            grid-template-areas: 
+            'area1 area2 area3'
+            ' area1 area4 area5'
+            'area6 area4 area7';
+            
+            padding: 10px;
+            gap:5px;
+           
+
+        }
+        .img1{
+            grid-area:area1 ;
+        }
+        .img2{
+            grid-area: area2;
+            position: relative;
+            
+        }
+        .img3{
+            grid-area: area3;
+        }
+        .img4{
+            grid-area: area4;
+            position: relative;
+            top:-70px;
+        }
+        .img5{
+            grid-area: area5;
+            position: relative;
+            top:-70px;
+        }
+        .img6{
+            grid-area: area6;
+            position: relative;
+            top:-140px;
+        }
+        .img7{
+            grid-area: area7;
+            position: relative;
+            top:-140px
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <img class="img img1" height="200" width="120" src="https://as2.ftcdn.net/v2/jpg/05/63/79/33/1000_F_563793333_5LSN77mnmFhLCam0r5f0E8PDYGRMEeIM.jpg"> 
+        <img class="img img2" height="100" width="120" src="https://www.usatoday.com/web-stories/expert-tips-for-brewing-coffee-at-home/assets/1.jpeg"> 
+        <img class="img img3" height="100" width="120" src="https://tse1.mm.bing.net/th?id=OIP.-MLUT6C1vRNQZ4NZqkzPMQHaE6&pid=Api&P=0&h=180"> 
+        <img class="img img4" height="200" width="120" src="https://tse3.mm.bing.net/th?id=OIP.X4ZuZolBGz7ytjdjA2_38QHaGC&pid=Api&P=0&h=180"> 
+        <img class="img img5" height="100" width="120" src="https://tse2.mm.bing.net/th?id=OIP.11NPfv_9hPQf1GGFNCPmHwHaHa&pid=Api&P=0&h=180"> 
+        <img class="img img6" height="100" width="120" src="https://cdn2.bigcommerce.com/server5600/42eba/products/3776/images/17416/California_Rustic_Oak_Expandable_Round_Dining_Table2__88601.1448060644.1280.1280.png?c=2"> 
+        <img class="img img7" height="100" width="120" src="https://tse1.mm.bing.net/th?id=OIP.XkCLar0fpqaMTKJxT38suQHaEK&pid=Api&P=0&h=180"> 
+    </div>
+</body>
+</html>
